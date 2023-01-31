@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+
+.title{
+    font-size: 65px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+.primary-btn{
+    font-size: 20px;
+    background-color: orangered;
+    border: 0;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.description{
+    font-weight: 50;
+    font-size: 18;
+}
+#header{
+    width: 100%;
+    text-align: center;
+    background-color: #1414189b;
+    background-image: url("../images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    margin: 0 ;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.header-title{
+    font-weight: 1200px;
+    font-size: 50px;
+    padding-top: 100px;
+}
+/* donate-today-section-start */
+.donate-today-section{
+    margin: auto auto;
+    width: 60%;
+}
+
+
+.box-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-container div{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 0px 6px 50px rgba(135, 41, 41, 0.06);
+    margin-top: 20px;
+}
+.box-container #red-box{
+    background-color: #d21b1b31;
+    border: 3px solid red;
+    border-radius: 5px;
+    
+}
+ 
+
+/* donate-today-section-end */
+/* donate-plan-section-start */
+.donate-plan,.donate-today-section{
+    text-align: center;
+}
+.donate-plan-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.donate-plan-item{
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+/* donate-plan-section-end */
+/* they-lives--section-start */
+.width-40{
+    width: 37.5%;
+    
+}
+.they-lives{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    margin: 0 10%;
+}
+.width-40 img{
+    width: 100%;
+    
+}
+.width-40 img{
+    margin-top: 100px;
+}
+.width-40 .description{
+    text-align: center;
+}
+
+/* they-lives-section-end */
+/* get update section start */
+#get-update{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.subscribe-container{
+    background-color: rgba(217, 210, 201, 0.573);
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 10px;
+}
+input[type=email]{
+    padding: 15px 5px;
+    height: 30px;
+    background-color: white;
+    border: 0;
+    
+}
+label button{
+    margin-left: -5px;
+}
+
+/* get update section end */
+/* footer section start */
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(15, 15, 13);
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-title{
+    color: red;
+    font-weight: 800;
+}
+.footer-description{
+    color: #ffffff;
+    font-weight: 50;
+}
